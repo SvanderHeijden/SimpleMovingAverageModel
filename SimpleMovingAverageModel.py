@@ -1,6 +1,3 @@
-import urllib.parse
-import json
-
 """
 
 This application serves as a simple plotting tool for the US stock market. For closing 
@@ -9,7 +6,8 @@ data the financial moddeling pred API is used.
 @author: Sjoerd van der Heijden
 
 """
-
+import urllib.parse
+import json
 import requests
 import numpy as np
 import pandas as pd
